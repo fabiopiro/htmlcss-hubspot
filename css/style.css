@@ -1,0 +1,75 @@
+/* common */
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* font */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* layout */
+.layout-80 {
+    width: 80%;
+    margin: auto;
+}
+
+/* debug */
+/* header */
+.hdr-nav-fxd-container {
+    height: 100px;
+    background-color: #f4f9fd;
+}
+
+.hdr-nav-container {
+    height: 100px;
+    background-color: white;
+}
+
+.jumbotron-container {
+    height: 500px;
+    background-color: #fff4ef;
+}
+
+.green-bar {
+    height: 100px;
+    background-color: #07bba3;
+}
+/* main */
+.main-container {
+    height: 2000px;
+    background-color: #f4f9fd;
+}
+
+.sctn-1 {
+    height: 500px;
+    background-color: blue;
+    text-align: center;
+}
+
+.sctn-2 {
+    height: 500px;
+    background-color: red;
+}
+
+.sctn-3 {
+    height: 500px;
+    background-color: #00aab8;
+}
+
+.sctn-4 {
+    height: 500px;
+    background-color: white;
+}
+/* footer */
+.ftr-container {
+    height: 500px;
+    background-color: #32495b;
+}
