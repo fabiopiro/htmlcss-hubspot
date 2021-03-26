@@ -19,9 +19,14 @@
 body {
     font-family: 'Nunito', sans-serif;
 }
+
 /* layout */
 .layout-one {
     width: 70%;
+    margin: auto;
+}
+.layout-two {
+    width: 80%;
     margin: auto;
 }
 
@@ -62,15 +67,9 @@ body {
 
 
 
-.sctn-4 {
-    height: 500px;
-    background-color: white;
-}
+
 /* footer */
-.ftr-container {
-    height: 500px;
-    background-color: #32495b;
-}
+
 /* /debug */
 /* HEADER */
 /* MAIN */
@@ -113,4 +112,47 @@ body {
 .sctn-3-sub-2-lmnt:last-child {
     border-right: none;
 }
+/* section 4 */
+/* section 4 - subsection 1 */
+.sctn-4-sub-1-lmnt {
+    height: 150px;
+    width: 50%;
+    background-color: yellowgreen;
+}
 
+.sctn-4-sub-1-lmnt:last-child {
+    text-align: right;
+}
+/* section 4 - subsection 2 */
+.sctn-4-sub-2-lmnt {
+    height: 150px;
+    width: 50%;
+    background-color: turquoise;
+}
+.sctn-4-sub-2-lmnt:last-child {
+    text-align: right;
+}
+/* FOOTER */
+.ftr-container {
+    height: 500px;
+    background-color: #32495b;
+}
+/* lists */
+.ftr-list {
+    height: 150px;
+    width: 20%;
+    background-color: thistle;
+}
+/* language */
+.language {
+    text-align: center;
+}
+/* bottom */
+.bottom-lmnt {
+    height: 150px;
+    width: 50%;
+    background-color: yellow;
+}
+.bottom-lmnt:last-child {
+    text-align: right;
+}
