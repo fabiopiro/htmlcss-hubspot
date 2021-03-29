@@ -43,6 +43,9 @@ h4 {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+a {
+    font-size: 14.5px;
+}
 .nmbr {
     font-size: 35px;
     font-weight: bold;
@@ -62,6 +65,9 @@ h4 {
 .txt-cntr {
     text-align: center;
 }
+.txt-right {
+    text-align: right;
+}
 
 /* layout */
 .layout-one {
@@ -69,7 +75,7 @@ h4 {
     margin: auto;
 }
 .layout-two {
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 .layout-three {
@@ -81,16 +87,76 @@ img {
     max-height: 100%;
     max-width: 100%;
 }
+/* list */
+/* list type 1 */
+.list-type-1 {
+    list-style: none;
+}
+.list-type-1 li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.list-type-1 li:last-child {
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* buttons */
+.btn {
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 9px 7px;
+    border: 1px solid #fe775a;
+}
+.btn-white {
+    color: #fe775a;
+    margin: 0 20px;
+}
+.btn-orange {
+    color: white;
+    background-color: #fe775a;
+}
+/* icons */
+.list-type-1 .fas.fa-chevron-down {
+    padding-left: 15px;
+}
+.fas .fa-globe-europe {
+    padding-right: 5px;
+}
+.fa-search {
+    color: #30b4c9;
+}
 /* HEADER */
-.hdr-nav-fxd-container {
+/* nav fixed */
+.nav-fxd-container {
     height: 75px;
+    line-height: 75px;
     background-color: #f4f9fd;
     border-bottom: 1px solid #384c5f;
 }
+.nav-fxd {
+    width: 50%;
+}
 
-.hdr-nav-container {
-    height: 150px;
+#language {
+    border-right: 1px solid;
+    padding-right: 20px;
+}
+.nav-fxd a:last-child:not(.btn) {
+    padding-left: 25px;
+    }
+
+/* nav */
+.nav-container {
+    height: 75px;
+    line-height: 75px;
+    margin-top: 75px;
     background-color: white;
+}
+.nav {
+    width: 50%;
 }
 
 .jumbotron-container {
@@ -205,7 +271,7 @@ img {
     padding: 0 10px;
 }
 .raw-up {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 /* section 4 - subsection 2 */
 .sctn-4-sub-2 {
@@ -214,7 +280,7 @@ img {
 .sctn-4-text-2 {
     height: 350px;
     width: 40%;
-    padding: 40px 0;
+    padding: 30px 0;
 }
 .sctn-4-image-container {
     height: 350px;
