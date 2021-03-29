@@ -29,6 +29,11 @@ body {
 p {
     font-size: 14.5px;
     line-height: 1.8;
+    margin-bottom: 30px;
+}
+h1 {
+    font-size: 42px;
+    margin-bottom: 30px;
 }
 h2 {
     font-size: 32px;
@@ -118,6 +123,10 @@ a {
     color: white;
     background-color: #fe775a;
 }
+.btn-big {
+    line-height: 50px;
+    padding: 18px 35px;
+}
 /* icons */
 .list-type-1 .fas.fa-chevron-down {
     padding-left: 15px;
@@ -168,7 +177,12 @@ a {
     background-position-x: 100%;
     background-color: #fff4ef;
 }
-
+.jumbotron-lmnts {
+    width: 35%;
+}
+.jumbotron-lmnts .txt-small {
+    margin-top: 30px;
+}
 .green-bar {
     position: absolute;
     left: 0%;
