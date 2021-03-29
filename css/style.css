@@ -97,28 +97,36 @@ img {
     max-height: 100%;
     max-width: 100%;
 }
-/* list */
-.list-type-one,
-.list-type-two {
-    list-style: none;
-}
-.list-type-one li {
-    display: inline-block;
-    padding: 0 10px;
-}
-.list-type-one li:last-child {
-    padding: 0;
-}
+/* link */
 a {
     text-decoration: none;
     color: inherit;
 }
-/* list type two */
+/* list */
+.list-type-one,
+.list-type-two,
+.list-type-three {
+    list-style: none;
+}
+.list-type-one li,
+.list-type-three li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.list-type-one li:last-child,
+.list-type-three li:first-child {
+    padding: 0;
+}
+
+.list-type-two,
+.list-type-three {
+    font-size: 14.5px;
+}
 .list-type-two {
     text-align: left;
-    font-size: 14.5px;
     margin-bottom: 40px;
 }
+/*  */
 
 /* buttons */
 .btn {
@@ -231,18 +239,39 @@ a {
 /* section 2 */
 .sctn-2 {
     height: 1200px;
-    background-color: red;
 }
 /* section 2 - big hub */
+.hub-big,
+.hub-lmnt {
+    border-radius: 5px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
 .hub-big {
-    height: 250px;
-    background-color: yellowgreen;
+    padding: 60px 0;
+    margin-bottom: 50px;
+}
+.hub-big-left {
+    width: 30%;
+}
+.hub-big-right {
+    width: 70%;
+}
+.hub-big p {
+    margin-bottom: 0px;
+}
+.hub-big h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bar {
+    height: 1px;
+    width: 100%;
 }
 /* section 2 - hubs */
 .hub-lmnt {
     width: 30%;
     padding: 20px 0;
-    background-color: violet;
 }
 .center {
     margin: 0 5%;
