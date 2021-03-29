@@ -49,8 +49,12 @@ h4 {
 }
 .nmbr::after {
     content: " +";
-    font-size: 25px;
+    font-size: 35px;
     font-weight: normal;
+}
+.nmbr-big {
+    font-size: 45px;
+    font-weight: bold;
 }
 .txt-small {
     font-size: 11px;
@@ -58,6 +62,7 @@ h4 {
 .txt-cntr {
     text-align: center;
 }
+
 /* layout */
 .layout-one {
     width: 70%;
@@ -110,7 +115,6 @@ img {
 }
 /* MAIN */
 .main-container {
-    height: 2000px;
     background-color: #f4f9fd;
 }
 /* section 1 */
@@ -177,28 +181,50 @@ img {
 }
 
 /* section 4 */
-/* section 4 - subsection 1 */
-.sctn-4-sub-1-lmnt {
-    height: 150px;
-    width: 50%;
-    background-color: yellowgreen;
+.sctn-4 {
+    background-color: white;
 }
-
-.sctn-4-sub-1-lmnt:last-child {
-    text-align: right;
+/* section 4 - subsecton 1 */
+.sctn-4-sub-1 {
+    padding: 40px 0;
+}
+/* section 4 - text */
+.sctn-4-text {
+    width: 20%;
+}
+/* section 4 - logos */
+.sctn-4-logos {
+   width: 80%;
+   text-align: right;
+   padding: 30px 0;
+}
+.logo-container {
+    width: 130px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+.raw-up {
+    margin-bottom: 30px;
 }
 /* section 4 - subsection 2 */
-.sctn-4-sub-2-lmnt {
-    height: 150px;
-    width: 50%;
-    background-color: turquoise;
+.sctn-4-sub-2 {
+    padding-bottom: 40px;
 }
-.sctn-4-sub-2-lmnt:last-child {
+.sctn-4-text-2 {
+    height: 350px;
+    width: 40%;
+    padding: 40px 0;
+}
+.sctn-4-image-container {
+    height: 350px;
+    width: 60%;
     text-align: right;
 }
+
 /* FOOTER */
 .ftr-container {
-    height: 500px;
+    /* height: 500px; */
     background-color: #32495b;
 }
 /* lists */
