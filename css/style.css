@@ -226,20 +226,13 @@ a {
     background-color: #f4f9fd;
 }
 /* section 1 */
-.sctn-1 {
-    height: 500px;
+.sctn-one {
+    padding-top: 30px;
 }
-
-.sctn-1-image-container {
+.sctn-one-image-container {
     height: 175px;
 }
-
-
-
 /* section 2 */
-.sctn-2 {
-    height: 1200px;
-}
 /* section 2 - big hub */
 .hub-big,
 .hub-lmnt {
@@ -269,6 +262,9 @@ a {
     width: 100%;
 }
 /* section 2 - hubs */
+.hub {
+    margin-bottom: 50px;
+}
 .hub-lmnt {
     width: 30%;
     padding: 20px 0;
@@ -310,7 +306,9 @@ a {
     height: 30px;
     margin-bottom: 7px;
 }
-
+.sctn-3-sub-lmnt p {
+    margin-bottom: 0;
+}
 /* section 4 */
 .sctn-4 {
     background-color: white;
