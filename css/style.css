@@ -26,13 +26,14 @@ body {
 .gray {
     color: lightgray;
 }
+
 p {
     font-size: 14.5px;
     line-height: 1.8;
     margin-bottom: 30px;
 }
 h1 {
-    font-size: 42px;
+    font-size: 48px;
     margin-bottom: 30px;
 }
 h2 {
@@ -87,27 +88,37 @@ a {
     width: 50%;
     margin: auto;
 }
+.layout-four {
+    width: 80%;
+    margin: auto;
+}
 /* image */
 img {
     max-height: 100%;
     max-width: 100%;
 }
 /* list */
-/* list type 1 */
-.list-type-1 {
+.list-type-one,
+.list-type-two {
     list-style: none;
 }
-.list-type-1 li {
+.list-type-one li {
     display: inline-block;
     padding: 0 10px;
 }
-.list-type-1 li:last-child {
+.list-type-one li:last-child {
     padding: 0;
 }
 a {
     text-decoration: none;
     color: inherit;
 }
+/* list type two */
+.list-type-two {
+    text-align: left;
+    font-size: 14.5px;
+}
+
 /* buttons */
 .btn {
     font-size: 12px;
@@ -128,15 +139,20 @@ a {
     padding: 18px 35px;
 }
 /* icons */
-.list-type-1 .fas.fa-chevron-down {
+.list-type-one .fas.fa-chevron-down {
     padding-left: 15px;
 }
-.fas .fa-globe-europe {
+.fa-globe-europe {
     padding-right: 5px;
 }
 .fa-search {
     color: #30b4c9;
 }
+.fa-check-circle {
+    padding-right: 10px;
+    color: #fe775a;
+}
+
 /* HEADER */
 /* nav fixed */
 .nav-fxd-container {
@@ -179,6 +195,9 @@ a {
 }
 .jumbotron-lmnts {
     width: 35%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
 }
 .jumbotron-lmnts .txt-small {
     margin-top: 30px;
@@ -214,19 +233,19 @@ a {
     background-color: red;
 }
 /* section 2 - subsection 1 */
-.sctn-2-sub-1 {
+.hub-big {
     height: 250px;
     background-color: yellowgreen;
 }
 /* section 2 - subsection 2 */
-.sctn-2-sub-2-lmnt {
+.hub-lmnt {
     width: 32%;
     background-color: violet;
 }
 .center {
     margin: 0 2%;
 }
-.sctn-2-sub-2-image-container {
+.hub-image-container {
     height: 100px;
 
 }
