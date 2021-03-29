@@ -117,6 +117,7 @@ a {
 .list-type-two {
     text-align: left;
     font-size: 14.5px;
+    margin-bottom: 40px;
 }
 
 /* buttons */
@@ -229,24 +230,26 @@ a {
 
 /* section 2 */
 .sctn-2 {
-    height: 700px;
+    height: 1200px;
     background-color: red;
 }
-/* section 2 - subsection 1 */
+/* section 2 - big hub */
 .hub-big {
     height: 250px;
     background-color: yellowgreen;
 }
-/* section 2 - subsection 2 */
+/* section 2 - hubs */
 .hub-lmnt {
-    width: 32%;
+    width: 30%;
+    padding: 20px 0;
     background-color: violet;
 }
 .center {
-    margin: 0 2%;
+    margin: 0 5%;
 }
 .hub-image-container {
-    height: 100px;
+    height: 90px;
+    margin-bottom: 20px;
 
 }
 /* section 3 */
