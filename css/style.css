@@ -38,15 +38,17 @@ h1 {
     font-size: 48px;
 }
 h2 {
-    font-size: 32px;
+    font-size: 31px;
 }
 h3 {
     font-size: 22px;
 }
 h4 {
+    font-size: 17px;
     text-transform: uppercase;
     margin-top: 30px;
 }
+
 p,
 h1,
 h2,
@@ -55,22 +57,10 @@ h4 {
     margin-bottom: 30px;
 }
 
-.nmbr {
-    font-size: 35px;
-    font-weight: bold;
-}
-.nmbr::after {
-    content: " +";
-    font-size: 35px;
-    font-weight: normal;
-}
-.nmbr-big {
-    font-size: 45px;
-    font-weight: bold;
-}
 .txt-small {
     font-size: 11px;
 }
+
 .txt-cntr {
     text-align: center;
 }
@@ -109,7 +99,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
 /* list */
 .list-type-one,
 .list-type-two,
@@ -188,7 +177,7 @@ img {
 
 .btn-big {
     line-height: 50px;
-    padding: 18px 35px;
+    padding: 18px 37px;
 }
 /* icons */
 .list-type-one .fas.fa-chevron-down {
@@ -228,7 +217,6 @@ img {
 .nav-fxd a:last-child:not(.btn) {
     padding-left: 25px;
 }
-/* /nav fixed */
 /* nav */
 .nav-container {
     height: 75px;
@@ -252,7 +240,7 @@ img {
 .jumbotron-lmnts {
     width: 35%;
     position: absolute;
-    top: 10%;
+    top: 9%;
     left: 15%;
 }
 .jumbotron-lmnts .txt-small {
@@ -275,6 +263,7 @@ img {
 /* section 1 */
 .sctn-one {
     padding-top: 30px;
+    margin-bottom: 50px;
 }
 .sctn-one-image-container {
     height: 175px;
@@ -318,7 +307,6 @@ img {
     width: 400px;
     margin-left: 40px;
 }
-
 /* section 2 - hubs */
 .hub {
     margin-bottom: 50px;
@@ -370,17 +358,34 @@ img {
 .table-lmnt p {
     margin-bottom: 0;
 }
+/* number */
+.nmbr {
+    font-size: 35px;
+    font-weight: bold;
+}
+.nmbr::after {
+    content: " +";
+    font-size: 25px;
+    font-weight: normal;
+    vertical-align: middle;
+}
 /* section 4 */
 .sctn-four {
     background-color: white;
 }
 /* section 4 - up */
 .sctn-four-up {
-    padding: 40px 0;
+    padding: 27px 0;
 }
-/* section 4 - text */
+/* section 4 text up */
 .sctn-four-text-up {
     width: 20%;
+}
+
+.nmbr-big {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 /* section 4 - logos */
 .brand {
@@ -401,6 +406,7 @@ img {
 .sctn-four-down {
     padding-bottom: 40px;
 }
+/* section 4 - text down */
 .sctn-four-text-down {
     height: 350px;
     width: 40%;
@@ -409,9 +415,9 @@ img {
 .sctn-four-text-down p {
     margin-top: 30px;
 }
-
+/* section 4 image */
 .sctn-four-image-container {
-    height: 350px;
+    height: 340px;
     width: 60%;
     text-align: right;
 }
